@@ -44,6 +44,11 @@
 
 .nav__link {
   color: #000000;
+  font-family: "Inter", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
   text-decoration: none;
   font-weight: bold;
 }
@@ -72,6 +77,7 @@
   font-size: 60px;
   line-height: 72px;
   color: #2f80ed;
+  margin-top: 0%;
 }
 
 .header__description {
