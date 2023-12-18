@@ -18,6 +18,10 @@ README.md: Documentación del proyecto.
 Contribución
 Actualmente, el proyecto está en desarrollo. Si deseas contribuir, por favor contacta al autor para obtener más información.
 
+Tecnologías y técnicas utilizadas:
+HTML y CSS
+Metodología BEM
+
 Estado del Proyecto
 Este proyecto está en desarrollo activo.
 
