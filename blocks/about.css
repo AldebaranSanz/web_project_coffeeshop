@@ -1,11 +1,12 @@
 .about {
   background-color: #0a2850;
-  position: absolute;
+  position: relative;
   overflow: hidden;
   max-width: 100%;
   background-size: cover;
   width: 100%;
   display: flex;
+  flex-wrap: wrap;
 }
 
 .about__title {
@@ -24,11 +25,13 @@
 }
 
 .about__content {
+  display: flex;
+  flex-direction: column;
   max-width: 660px;
-  position: absolute;
-  top: 119px;
-  right: 80px;
+  margin-top: 119px;
+  margin-left: auto;
   margin-bottom: 173px;
+  margin-right: 80px;
 }
 
 .about__paragraph {
@@ -61,7 +64,7 @@
   height: 426px;
   background-color: #2f80ed;
   border-radius: 50%;
-  position: relative;
+  position: absolute;
   top: -129px;
   left: -152px;
   animation-name: pulse;
