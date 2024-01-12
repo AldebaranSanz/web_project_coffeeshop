@@ -59,14 +59,7 @@
   z-index: 1;
 }
 
-.about__circle_animation-blurred {
-  width: 426px;
-  height: 426px;
-  background-color: #2f80ed;
-  border-radius: 50%;
-  position: absolute;
-  top: -129px;
-  left: -152px;
+.about__circle_animation_blurred {
   animation-name: pulse;
   animation-duration: 1.3s;
   animation-play-state: running;
