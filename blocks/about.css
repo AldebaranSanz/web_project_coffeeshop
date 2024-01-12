@@ -1,20 +1,11 @@
 .about {
   background-color: #0a2850;
-  position: relative;
+  position: absolute;
   overflow: hidden;
   max-width: 100%;
   background-size: cover;
   width: 100%;
   display: flex;
-}
-
-.about__circle {
-  width: 426px;
-  height: 426px;
-  background-color: #2f80ed;
-  border-radius: 50%;
-  position: relative;
-  transform: translate(-129px, -152px);
 }
 
 .about__title {
@@ -29,6 +20,7 @@
   position: absolute;
   top: 100px;
   left: 80px;
+  z-index: 2;
 }
 
 .about__content {
@@ -51,4 +43,45 @@
 
 .about__paragraph:last-of-type {
   margin-bottom: 0px;
+}
+
+.about__circle {
+  width: 426px;
+  height: 426px;
+  background-color: #2f80ed;
+  border-radius: 50%;
+  position: absolute;
+  top: -129px;
+  left: -152px;
+  z-index: 1;
+}
+
+.about__circle_animation_blurred {
+  width: 426px;
+  height: 426px;
+  background-color: #2f80ed;
+  border-radius: 50%;
+  position: relative;
+  top: -129px;
+  left: -152px;
+  animation-name: pulse;
+  animation-duration: 1.3s;
+  animation-play-state: running;
+  animation-iteration-count: infinite;
+  transition-timing-function: ease-in-out;
+}
+
+@keyframes pulse {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1);
+    opacity: 0.6;
+  }
+
+  100% {
+    transform: scale(1.2);
+    opacity: 0;
+  }
 }
