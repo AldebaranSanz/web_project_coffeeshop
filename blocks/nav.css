@@ -25,10 +25,11 @@
   line-height: 20px;
   text-decoration: none;
   font-weight: bold;
+  transition: color 0.3s ease;
 }
 
 .nav__link:hover {
-  color: #1f69c9;
+  color: #2f80ed;
 }
 
 .header__title {
